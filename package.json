@@ -1,0 +1,48 @@
+{
+  "name": "break-anything-mcp",
+  "version": "0.1.0",
+  "description": "Autonomous Chaos & Exploit Agent for Vibe-Coded Apps. Finds race conditions and auth bypasses before hackers do.",
+  "type": "module",
+  "bin": {
+    "break-anything": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "skills",
+    ".claude-plugin",
+    "demo",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/cli.ts",
+    "start": "node dist/cli.js",
+    "mcp": "node dist/cli.js mcp",
+    "test": "node --import tsx --test test/*.test.ts"
+  },
+  "keywords": [
+    "mcp",
+    "security",
+    "fuzzer",
+    "race-condition",
+    "idor",
+    "claude-code",
+    "cursor",
+    "pentesting"
+  ],
+  "author": "mohdxaid",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

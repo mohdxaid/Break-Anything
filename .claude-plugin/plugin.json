@@ -1,0 +1,13 @@
+{
+  "name": "break-anything-mcp",
+  "version": "0.1.0",
+  "description": "Autonomous Chaos & Exploit Agent for Vibe-Coded Apps.",
+  "author": "mohdxaid",
+  "mcpServers": {
+    "break-anything": {
+      "command": "npx",
+      "args": ["-y", "break-anything-mcp", "mcp"]
+    }
+  },
+  "skills": ["./skills/break-anything/SKILL.md"]
+}
