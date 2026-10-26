@@ -1,6 +1,6 @@
 <div align="center">
 
-# Break-Anything (`break-anything-mcp`)
+# Break Anything (`break anything mcp`)
 
 **AI wrote your app in 10 minutes. `Break-Anything` hacks it in 60 seconds.**
 
@@ -15,7 +15,7 @@ Millions of developers are currently "vibe-coding" web apps using AI coding agen
 - **Mass Assignment:** AI blindly merges JSON bodies into database updates, allowing users to pass `{"isAdmin": true}`.
 - **Auth Bypasses:** Missing middleware on specific sub-routes.
 
-`Break-Anything` is an autonomous chaos testing CLI and Model Context Protocol (MCP) server. You point it at an endpoint, and it fires 50 concurrent requests, mutates auth tokens, fuzzes payloads, and **hands the exact failing `curl` reproduction back to your AI coding agent to fix.**
+`Break Anything` is an autonomous chaos testing CLI and Model Context Protocol (MCP) server. You point it at an endpoint, and it fires 50 concurrent requests, mutates auth tokens, fuzzes payloads, and **hands the exact failing `curl` reproduction back to your AI coding agent to fix.**
 
 ## Quickstart (The Viral Demo)
 
