@@ -1,6 +1,6 @@
 <div align="center">
 
-# Break Anything (`break anything mcp`)
+# Break Anything (`break-anything-mcp`)
 
 **AI wrote your app in 10 minutes. `Break Anything` hacks it in 60 seconds.**
 
