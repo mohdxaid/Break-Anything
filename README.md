@@ -2,7 +2,7 @@
 
 # Break Anything (`break anything mcp`)
 
-**AI wrote your app in 10 minutes. `Break-Anything` hacks it in 60 seconds.**
+**AI wrote your app in 10 minutes. `Break Anything` hacks it in 60 seconds.**
 
 [![CI](https://github.com/mohdxaid/break-anything/actions/workflows/ci.yml/badge.svg)](https://github.com/mohdxaid/break-anything/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](LICENSE)
