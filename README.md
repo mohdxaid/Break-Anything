@@ -1,8 +1,8 @@
 <div align="center">
 
-# 💥 Break-Anything (`break-anything-mcp`)
+# Break-Anything (`break-anything-mcp`)
 
-**AI wrote your app in 10 minutes. `Break-Anything` hacks it in 60 seconds.**
+**AI wrote your app in 10 minutes. `Break Anything` hacks it in 60 seconds.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](LICENSE)
 [![MCP Compatible](https://img.shields.io/badge/MCP-Native-success.svg)](https://modelcontextprotocol.io)
@@ -14,9 +14,9 @@ Millions of developers are currently "vibe-coding" web apps using AI coding agen
 - **Mass Assignment:** AI blindly merges JSON bodies into database updates, allowing users to pass `{"isAdmin": true}`.
 - **Auth Bypasses:** Missing middleware on specific sub-routes.
 
-`Break-Anything` is an autonomous chaos testing CLI and Model Context Protocol (MCP) server. You point it at an endpoint, and it fires 50 concurrent requests, mutates auth tokens, fuzzes payloads, and **hands the exact failing `curl` reproduction back to your AI coding agent to fix.**
+`Break Anything` is an autonomous chaos testing CLI and Model Context Protocol (MCP) server. You point it at an endpoint, and it fires 50 concurrent requests, mutates auth tokens, fuzzes payloads, and **hands the exact failing `curl` reproduction back to your AI coding agent to fix.**
 
-## 🚀 Quickstart (The Viral Demo)
+## Quickstart (The Viral Demo)
 
 Experience a successful race-condition hack on your laptop in 5 seconds without installing anything:
 
@@ -25,7 +25,7 @@ Experience a successful race-condition hack on your laptop in 5 seconds without 
 npx break-anything-mcp demo
 ```
 
-## 🛠️ Attacking Local Code
+## Attacking Local Code
 
 Test any local endpoint running on your machine:
 
@@ -37,7 +37,7 @@ npx break-anything-mcp attack "http://localhost:3000/api/withdraw" \
   --concurrency 100
 ```
 
-## 🤖 Wiring to Claude Code / Cursor (MCP)
+## Wiring to Claude Code / Cursor (MCP)
 
 To let your AI agent automatically audit and fix vulnerabilities it creates:
 
@@ -65,7 +65,7 @@ To let your AI agent automatically audit and fix vulnerabilities it creates:
 ## Development
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/break-anything-mcp
+git clone https://github.com/mohdxaid/break-anything-mcp
 cd break-anything-mcp
 npm install
 npm run build
