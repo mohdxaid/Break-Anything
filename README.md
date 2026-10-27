@@ -11,9 +11,9 @@
 </div>
 
 Millions of developers are currently "vibe-coding" web apps using AI coding agents. While AI writes code that passes happy-path tests, it frequently generates code with catastrophic hidden flaws:
-- **Race Conditions (TOCTOU):** No database row-locking means two concurrent requests can double-spend a wallet balance.
-- **Mass Assignment:** AI blindly merges JSON bodies into database updates, allowing users to pass `{"isAdmin": true}`.
-- **Auth Bypasses:** Missing middleware on specific sub-routes.
+**Race Conditions (TOCTOU):** No database row-locking means two concurrent requests can double-spend a wallet balance.
+**Mass Assignment:** AI blindly merges JSON bodies into database updates, allowing users to pass `{"isAdmin": true}`.
+**Auth Bypasses:** Missing middleware on specific sub-routes.
 
 `Break Anything` is an autonomous chaos testing CLI and Model Context Protocol (MCP) server. You point it at an endpoint, and it fires 50 concurrent requests, mutates auth tokens, fuzzes payloads, and **hands the exact failing `curl` reproduction back to your AI coding agent to fix.**
 
